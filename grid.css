@@ -1,0 +1,276 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-image: linear-gradient(to left , #7292A6, #224459);
+    font-family: 'Roboto Mono', monospace;
+    padding: 1em;
+    color: white;
+}
+
+main{
+    display: grid;
+    grid-template-areas: "a b c c d" "a e f g h" "a i f j j" ;
+    grid-template-columns: 0fr 0fr 0fr 0fr;
+    grid-template-rows: 12em 12em 12em;
+    gap: 1em;
+    margin-top: 1em;
+}
+
+.nav{
+    grid-area: a;
+    background-color: #C5D1D9;
+    font-family: 'Roboto Mono', monospace;
+    color: #C5D1D9;
+    width: 9em;
+    height: 20.25em;
+    font-size: 30px;
+
+}
+
+a.nav{
+    list-style-type: none;
+    text-decoration: none;
+}
+
+nav a{
+    text-decoration: none;
+    color: #39778D
+}
+
+nav li{
+    margin-left: 1em;
+    margin-top: 1em;
+    margin-bottom: 2em;
+}
+
+.s1{
+    background-color: #ECECEC;
+    grid-area: b;
+    height: 12em;
+    width: 12em;
+}
+
+.prog{
+    grid-area: c;
+    background-color: #ECECEC;
+    height: 12em;
+    width:
+    padding: 2em;
+}
+
+.ft2{
+    grid-area: d;
+    height: 12em;
+    width: 18em;
+    background-image: url("palestrantes/amanda.jpg");
+    background-size: cover;
+    filter: grayscale(1);
+    text-align: center;
+}
+
+.s2{
+    grid-area: e;
+    background-color: #ECECEC;
+    height: 12em;
+    width: 12em;
+
+}
+
+.sub{
+    grid-area: f;
+    background-color: #ECECEC;
+    height: 25em;
+    width: 21em;
+}
+
+.ft3{
+    grid-area: g;
+    height: 12em;
+    width: 12em;
+    background-image: url("palestrantes/georgia.jpg");
+    background-size: cover;
+    filter: grayscale(1);
+    text-align: center;
+
+}
+
+.ft4{
+    grid-area: h;
+    height: 12em;
+    width: 18em;
+    background-image: url("palestrantes/henrique.jpg");
+    background-size: cover;
+    filter: grayscale(1);
+    text-align: center;
+}
+
+.ft1{
+    grid-area: i;
+    height: 12em;
+    width: 12em;
+    background-image: url("palestrantes/ellen.jpg");
+    background-size: cover;
+    filter: grayscale(1);
+    text-align: center;
+
+}
+
+.org{
+    grid-area: j;
+    background-color: #ECECEC;
+}
+
+img{
+    max-height: 12em;
+    max-width: 18em;
+    /*filter: grayscale(1)*/
+    opacity: 0%;
+}
+
+/*h3{
+    margin-left: 4rem;
+    margin-top: 10rem;
+    padding-block: 2rem;
+    color: white;
+}*/
+
+.ft1 h3{
+    text-align: center;
+    margin: -8em;
+    margin-left: 0em;
+    background-color:rgba(128, 128, 128, 0.548);
+    width: 13.65em;
+    font-family: arial;
+    color: white;
+    font-size: 14px;
+    font-style: none;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+}
+
+.ft2 h3{
+    text-align: center;
+    margin: -8em;
+    margin-left: 0em;
+    background-color:rgba(128, 128, 128, 0.548);
+    width: 20.6em;
+    font-family: arial;
+    color: white;
+    font-size: 14px;
+    font-style: none;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+}
+
+.ft4 h3{
+    text-align: center;
+    margin: -8em;
+    margin-left: 0em;
+    background-color:rgba(128, 128, 128, 0.548);
+    width: 20.6em;
+    font-family: arial;
+    color: white;
+    font-size: 14px;
+    font-style: none;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+}
+
+.ft3 h3{
+    text-align: center;
+    margin: -5em;
+    margin-left: 0em;
+    background-color:rgba(128, 128, 128, 0.548);
+    width: 13.65em;
+    font-family: arial;
+    color: white;
+    font-size: 14px;
+    font-style: none;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+}
+
+.s1 p{
+
+}
+
+p{
+    font-family: arial;
+    color: black;
+    font-size: 14px;
+    padding: 1em;
+}
+
+section h2{
+    font-family: monospace;
+    margin: 0.5em;
+    color: black;
+    font-size: 24px;
+}
+
+.s1 input{
+    margin: 1em;
+}
+
+.s2 ul{
+    margin: 2em;
+    font-family: arial;
+}
+
+.s2 li{
+    color: black;
+    font-size: 14px;
+    padding-bottom: 1em;
+}
+
+table{
+    border-collapse: collapse;
+    margin-left: 8em;
+}
+
+table td{
+    padding: 5px;
+    border: 1px solid white;
+    font-family: arial;
+}
+
+table th{
+    padding: 5px;
+    border: 1px solid white;
+}
+
+.sub div{
+    margin: 1em;
+    font-family: arial;
+}
+
+.sub input{
+    margin-left: 1em;
+}
+
+.org ul{
+    margin-left: 2em;
+    font-family: arial;
+}
+
+.org li{
+    color: black;
+    font-size: 14px;
+    padding-bottom: 1em;
+}
+
+footer{
+    background-color: #224459;
+    margin-top: 1em;
+    text-align: center;
+}
+
+footer p{
+    color: white;
+    font-family: arial;
+    font-size: 14px;
+    padding: 2em;
+}
